@@ -110,6 +110,7 @@ public class DoublyLinkedListIterator<E> implements MyIterator<E> {
 
 				// check E has implements Comparable?
 				if (valueElemetnsCurrrent instanceof Comparable<?>) {
+					
 					// "<" sap xep tăng dần
 					if (((Comparable) valueElemetnsCurrrent).compareTo(max) < 0) {
 						max = valueElemetnsCurrrent;

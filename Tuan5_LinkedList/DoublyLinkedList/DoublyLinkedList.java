@@ -93,11 +93,12 @@ public class DoublyLinkedList<E> {
 	public MyIterator<E> iterator(){
 		return new DoublyLinkedListIterator<E>(header, trailer, size);
 	}
-
+	
+	//sap xep 
 	public DoublyLinkedList<E> sort() {
-		DoublyLinkedList<E> listSorted = new DoublyLinkedList<>();
-		MyIterator<E> iter = this.iterator();
-		listSorted = iter.sort();
+		DoublyLinkedList<E> listSorted;
+		DoublyLinkedListIterator<E> doubleLinkedIter = new DoublyLinkedListIterator<E>(header, trailer, size);
+		listSorted = doubleLinkedIter.sort();
 
 		return listSorted;
 	}

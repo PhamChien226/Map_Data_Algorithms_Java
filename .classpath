@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="Tuan5_LinkedList"/>
 	<classpathentry kind="src" path="Tuan6_Iterator"/>
 	<classpathentry kind="src" path="Tuan7_HashMap&amp;Table"/>
+	<classpathentry kind="src" path="Tuan8_Stack"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

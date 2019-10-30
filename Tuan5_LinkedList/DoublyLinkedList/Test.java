@@ -33,6 +33,9 @@ public class Test {
 		
 
 //		MyIterator<String> iter = toDoList.iterator();
+//		Iterator<String> iter = (Iterator<String>) toDoList.iterator();
+		
+		
 
 //		while (iter.hasNext()) {
 //			String value = iter.next();

@@ -16,8 +16,6 @@ public interface MyIterator<E> {
 	public E prev();
 	public void remove();
 	
-	public DoublyLinkedList<E> sort();
-	
 //	public void sort();
 	//ket hop sap xep selection Sort
 }

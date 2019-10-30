@@ -9,7 +9,7 @@ import java.util.TreeMap;
 import java.util.Iterator;
 
 public class MethodOfMap {
-
+	//hien thi DoubleLinkedList  dung iterator
 	public static void disPlayWithIterator(Map<? extends Object, ? extends Object> listMap) {
 		Iterator iter = listMap.entrySet().iterator();
 		while (iter.hasNext()) {
@@ -17,7 +17,8 @@ public class MethodOfMap {
 			System.out.println(pair.getKey() + ", " + pair.getValue() + ";");
 		}
 	}
-
+	
+	//hient hi DoubleLinkedList dung forEach
 	public static void disPlayWithoutIterator(Map<? extends Object, ? extends Object> listMap) {
 		Set<? extends Object> keySet = listMap.keySet();
 		// tai sao thay bang object thi lai duoc
@@ -25,11 +26,13 @@ public class MethodOfMap {
 			System.out.println(key + " " + listMap.get(key));
 		}
 	}
-
+	
+	
 	public void remove(Map<? extends Object, ? extends Object> listMap, Object key) {
 		listMap.remove(key);
 	}
-
+	
+	//chuyen sdt tu 11 -> 10
 	public Map get10NumberPhone(Map<String, String> listPhone) {
 		Map<String, String> listPhone10Num = new HashMap<String, String>();
 		Set<? extends Object> keySet = listPhone.keySet();
